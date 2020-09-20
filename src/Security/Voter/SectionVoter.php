@@ -19,8 +19,7 @@ class SectionVoter extends Voter
 
     protected function supports($attribute, $subject)
     {
-        // replace with your own logic
-        // https://symfony.com/doc/current/security/voters.html
+
         return in_array($attribute, ['MANAGE'])
             && $subject instanceof Section;
     }
