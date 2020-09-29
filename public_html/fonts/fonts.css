@@ -1,0 +1,88 @@
+@font-face {
+    font-family: tahu;
+    font-style: italic;
+    font-weight: normal;
+    src: url("/Tahu.ttf") format('truetype');
+}
+@font-face {
+    font-family: Hoverage;
+    font-style: italic;
+    font-weight: normal;
+    src: url(".otf") format('truetype');
+}
+.hoverage{
+    font-family: Hoverage;
+}
+
+@font-face {
+    font-family: Matahati Regular;
+    font-style: italic;
+    font-weight: normal;
+    src: url(" Regular.otf") format('truetype');
+}
+@font-face {
+    font-family: big noodle titling;
+    font-style: italic;
+    font-weight: normal;
+    src: url("le_titling.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: warnock;
+    font-style: italic;
+    font-weight: normal;
+    src: url("ro-ItSubh.otf") format('truetype');
+}
+
+@font-face {
+    font-family: greatlakes;
+    font-style: italic;
+    font-weight: normal;
+    src: url("esNF.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: diamond;
+    font-style: italic;
+    font-weight: normal;
+    src: url("amond.otf") format('truetype');
+}
+
+@font-face {
+    font-family: joyful;
+    font-style: italic;
+    font-weight: normal;
+    src: url("tory.otf") format('truetype');
+}
+.warnock{
+    font-family: warnock;
+}
+
+@font-face {
+    font-family: Tuesnight Regular;
+    font-style: italic;
+    font-weight: normal;
+    src: url("t.otf") format('truetype');
+}
+.tuesnight{
+    font-family: "Tuesnight Regular";
+}
+
+
+.big_noodle_titling{
+    font-family: big noodle titling;
+}
+.matahati{
+    font-family: Matahati Regular;
+}
+.greatlakes{
+    font-family: greatlakes;
+}
+
+.fontUnivers{
+    font-family: 'UniversLTStd-Obl', cursive;
+}
+
+.fontTahu{
+    font-family: 'tahu', cursive;
+}
