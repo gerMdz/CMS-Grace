@@ -18,10 +18,11 @@ class AdminController extends AbstractController
      */
     public function index(PrincipalRepository $principalRepository, MetaBaseRepository $metaBaseRepository)
     {
-
+        $nada = null;
         return $this->render('admin/index.html.twig', [
             'principals' => $principalRepository->findAll(),
             'meta_bases' => $metaBaseRepository->findAll(),
+            'nada'=>$nada
 
         ]);
     }
