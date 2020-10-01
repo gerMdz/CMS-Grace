@@ -97,3 +97,7 @@ yarn-error.log
 /public_html/build/
 /sqls/shared.sql
 /public_html/uploads/phpIm7PIa
+/public_html/vendors/bootstrap/
+/public_html/business-casual/
+/public_html/stream-ui-kit/
+/public_html/shards-ui/
