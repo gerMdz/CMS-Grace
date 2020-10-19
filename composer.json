@@ -1,4 +1,6 @@
 {
+    "name": "germdz/alamedacms-grace",
+    "description": "CMS para hosting compartidos",
     "type": "project",
     "license": "MIT",
     "require": {
