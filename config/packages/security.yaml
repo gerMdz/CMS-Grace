@@ -51,5 +51,6 @@ security:
         - { path: ^/profile, roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/login$, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/admin/ingreso, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/admin/registro, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/index, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/admin, role: IS_AUTHENTICATED_FULLY }
