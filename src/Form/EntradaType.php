@@ -55,7 +55,7 @@ class EntradaType extends AbstractType
                 'constraints' => [
                     new Image([
                         'maxSize' => '4M',
-                        'maxSizeMessage' => 'La imagen no debe superar los 2MB',
+                        'maxSizeMessage' => 'La imagen no debe superar los 4MB',
                         'mimeTypesMessage' => 'El archivo no es considerada una imagen',
                     ]),
                 ],
