@@ -59,7 +59,6 @@ class EntradaType extends AbstractType
                         'mimeTypesMessage' => 'El archivo no es considerada una imagen',
                     ]),
                 ],
-
                 'attr' => [
                     'placeholder' => 'Ingrese una imagen para esta entrada',
                 ],
