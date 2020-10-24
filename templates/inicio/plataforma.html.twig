@@ -45,10 +45,6 @@
         {% for section in principal.section %}
             {%  include 'sections/'~section.template~'.twig' with { 'section':section } %}
         {% endfor %}
-
-        <!-- Contact Form -->
-
-        <!-- End Contact Form -->
     </main>
 {% endblock %}
 {% block javascripts %}
