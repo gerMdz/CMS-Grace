@@ -43,7 +43,7 @@
 {% block sections %}
     <main role="main" class="bg-white">
         {% for section in principal.section %}
-            {%  include 'sections/'~section.template~'.twig' with { 'section':section } %}
+            {%  include 'sections/'~section.template~'.html.twig' with { 'section':section } %}
         {% endfor %}
     </main>
 {% endblock %}
