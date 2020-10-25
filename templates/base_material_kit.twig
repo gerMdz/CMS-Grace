@@ -35,7 +35,8 @@
     {% endblock %}
 
     {% block stylesheets %}
-        <link rel="stylesheet" type="text/css"
+        <link rel="stylesheet" type="text/css" href="{{ asset('css-misc/mdb.min.css') }}">
+{#        <link rel="stylesheet" type="text/css"#}
 {#              href="{{ asset('stream-ui-kit/assets/vendors/slick-carousel/slick.css') }}">#}
 {#        <link rel="stylesheet" type="text/css" href="{{ asset('stream-ui-kit/assets/css/styles.css') }}">#}
         <link href="{{ asset('css/igles.min.css') }}?v={{ version }}" rel="stylesheet">
